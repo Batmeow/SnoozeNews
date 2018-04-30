@@ -1,0 +1,2 @@
+# SnoozeNews
+Team Project
