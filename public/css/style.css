@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+html {
+   width: 480px;
+   height: 320px;
+   background: #fff;
+}
+
+body {
+   background: #000 !important;
+   color: #fff !important;
+   font-family: 'Rajdhani', sans-serif !important;
+   height: 100%;
+   width: 100%;
+   padding: 0px 10px;
+}
+
+/* CLOCK */
+.clock {
+   font-weight: normal;
+   text-align: center;
+}
+
+.clock .time {
+   font-size: 96px;
+   padding: 0;
+}
+
+.clock .period {
+   margin-top: -22px;
+   font-size: 22px;
+}
+
+#carouselFade {
+   margin-top: 15px;
+}
+
+.currentWeather {
+   padding: 8px;
+
+   background: rgb(0,212,255);
+   background: -webkit-linear-gradient(110deg, rgba(0,212,255,1) 0%, rgba(0,75,251,1) 100%);
+   background: -o-linear-gradient(110deg, rgba(0,212,255,1) 0%, rgba(0,75,251,1) 100%);
+   background: linear-gradient(200deg, rgba(0,212,255,1) 0%, rgba(0,75,251,1) 100%);
+
+   border-radius: 5px;
+}
+
+.tempNow {
+   font-size: 46px;
+}
+
+.temp_icon {
+   font-size: 46px;
+   text-align: center;
+   position: relative;
+   top: 3px;
+}
+
+.weatherStats {
+   padding: 5px 10px;
+   border-radius: 5px;
+   background: rgba(0, 0, 0, 0.08);
+   font-size: 18px;
+}
